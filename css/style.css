@@ -1,0 +1,101 @@
+nav.menu {
+    background: #2980B9;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #C6FFDD, #FFFFFF);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #C6FFDD, #FFFFFF);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+nav.menu a.navbar-brand,
+nav.menu a.nav-link {
+    color: black;
+    font-weight: bold;
+    transition: all ease-out 0.2s;
+}
+
+nav.menu a.navbar-brand:hover,
+nav.menu a.htmele:hover {
+    transform: scale(1.1);
+    color: crimson;
+}
+
+nav.menu a.csese:hover {
+    transform: scale(1.1);
+    color: blue;
+}
+
+nav.menu a.javas:hover {
+    transform: scale(1.1);
+    color: gold;
+}
+
+nav.menu a.sql:hover {
+    transform: scale(1.1);
+    color: cadetblue;
+}
+
+div.conte_index h1 {
+    font-weight: bold;
+    background: -webkit-linear-gradient(#7F7FD5, #91EAE4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #86A8E7;
+    -webkit-text-stroke: 2px black;
+    font-size: 3.5em;
+}
+
+div.conte_index div.personajes {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+div.conte_index div.personajes p {
+    font-size: 1.8em;
+}
+
+div.conte_index div.camilo {
+    background-color: lightgreen;
+}
+
+div.conte_index div.camilo h2 {
+    -webkit-text-stroke: 1.5px green;
+    color: #fff;
+    font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+}
+
+div.conte_index div.arango,
+div.conte_index div.zapata {
+    background-color: lightcoral;
+}
+
+div.conte_index div.arango h2,
+div.conte_index div.zapata h2 {
+    -webkit-text-stroke: 1.5px darkblue;
+    color: darkred;
+    font-size: 4em;
+    font-family: 'Dancing Script', cursive;
+}
+
+div.conte_index div.bgchtml {
+    background-color: lightsalmon;
+}
+
+div.conte_index div.bgccss {
+    background-color: lightskyblue;
+}
+
+div.conte_index div.bgcjs {
+    background-color: lightgoldenrodyellow;
+}
+
+div.conte_index div.bgcbbdd {
+    background-color: #93b1e8;
+}
+
+div.img_perso img {
+    transition: all ease-out 0.3s;
+} div.img_perso img:hover {
+    transform: scale(1.04);
+}
